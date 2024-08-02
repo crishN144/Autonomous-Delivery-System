@@ -31,7 +31,7 @@ This project analyzes data related to autonomous delivery robots to optimize the
 ## Dataset
 
 
-1. **Robot_Specs.xlsx**:
+1. **Robot_Specs.csv**:
 
    This file includes details about various autonomous robot models and their performance characteristics.
 
@@ -156,6 +156,7 @@ These visualizations provide crucial insights into robot performance, customer b
 
 This analysis provides valuable insights for optimizing autonomous delivery systems. Key takeaways include the identification of the most suitable robot prototype for trials and strategies for efficient robot allocation across different store types.
 
+
 ## How to Use
 
 To explore and utilize this project:
@@ -167,18 +168,25 @@ To explore and utilize this project:
    ```
 
 2. **Set Up the Environment**:
-   - Ensure you have R installed on your system
+   - Ensure you have R installed on your system.
    - Install required R packages:
      ```R
      install.packages(c("ggplot2", "dplyr", "goalp"))
      ```
 
 3. **Run the Analysis**:
-   - Open `BADS.R` in your preferred R environment
-   - Run the script to reproduce the analysis
+   - Open `BADS.R` in your preferred R environment.
+   - Run the script to reproduce the analysis.
 
 4. **Explore the Data**:
-   - The `Robot Shipment.xlsx` file contains the raw data used in the analysis
+   - The dataset includes the following files:
+     - `Robot_Specs.xlsx`: Contains robot prototype performance metrics.
+     - `Priority_Settings.xlsx`: Details the importance of various criteria.
+     - `Customer_Transactions.csv`: Captures customer transaction data and demographics.
+
+   - The `Robot_Specs.xlsx` file contains details on robot specifications.
+   - The `Priority_Settings.xlsx` file outlines management priorities.
+   - The `Customer_Transactions.csv` file includes customer behavior data.
 
 ## Future Work
 
